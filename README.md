@@ -52,20 +52,15 @@ pip install opencv-python cvzone numpy
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/VRP-github/HandSign-Detection.git
    ```
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Ensure the following folders and files are present:
+2. Ensure the following folders and files are present:
    - `Images/` for storing collected gesture images.
    - `Model/keras_model.h5` for the pre-trained classification model.
    - `Model/labels.txt` for gesture labels.
 
-4. Connect a webcam to your system.
+3. Connect a webcam to your system.
 
 ---
 
